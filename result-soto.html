@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jodohmu: Soto Betawi!</title>
+    <link rel="icon" type="image/x-icon" href="icon.PNG">
+    <style>
+        :root {
+            --1-color: rgba(65, 50, 35, 1);
+        }
+
+        body {
+            background-color: var(--1-color);
+            font-family: 'Andale Mono', monospace;
+        }
+
+        .result-page {
+            width: 400px;
+            margin: 0 auto;
+            background: var(--1-color);
+            
+            color: white;
+            border-radius: 36px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .food-image {
+            width: 320px;
+            border-radius: 50px;
+        }
+
+        .back-button {
+            font-family: 'Andale Mono', monospace;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 20px;
+            margin-top: 20px;
+            border: none;
+        }
+
+        .back-button:hover {
+            background-color: rgb(255, 189, 113);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result-page">
+        <h1>Jodohmu: Soto Betawi!</h1>
+        <img src="soto-betawi.png" alt="Soto Betawi" class="food-image">
+        <p>Lo penuh perhatian dan selalu hangat, kayak Soto Betawi yang selalu jadi comfort food.</p>
+        <button class="back-button" onclick="window.location.href='index.html'">Coba Lagi</button>
+        <img src="ketoprak.png" alt="Ketoprak" style="width: 300px; height: auto; display: block; margin: 0px auto; border-radius: 10px;">
+    </div>
+</body>
+
+</html>

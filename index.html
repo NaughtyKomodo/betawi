@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jodoh Makanan Betawi</title>
+    <link rel="icon" type="image/x-icon" href="icon.PNG">
+    <style>
+        :root {
+            --1-color: rgba(65, 50, 35, 1);
+            
+        }
+
+        body {
+            background-color: var(--1-color);
+            font-family: 'Andale Mono', monospace;
+        }
+
+        .start-page {
+            width: 400px;
+            margin: 0 auto;
+            background: var(--1-color);
+            color: var(--6-color);
+            border-radius: 36px;
+            position: relative;
+            font-family: 'Andale Mono', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .top-image {
+            width: 320px;
+            height: auto;
+            margin: 0px;
+            transition: opacity 0.5s ease;
+            border-radius: 50px;
+        }
+
+        .start-button {
+            font-family: 'Andale Mono', monospace;
+            background-color: rgba(237, 128, 2, 1);
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px 20px;
+            margin: 0;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .start-button:hover {
+            background-color: rgb(255, 189, 113);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="start-page" id="start-page">
+        <img src="logo.png" alt="logo" style="width: 60px; height: auto; display: block; margin-bottom: 5px;">
+
+        <img src="front1.gif" class="top-image" alt="Top Image">
+        <div class="button-group">
+            <button id="start-button" class="start-button" onclick="window.location.href='kuis.html'">Tes Yuk!</button>
+
+        </div>
+
+        <br><br>
+
+        <img src="ketoprak.png" alt="Ketoprak" style="width: 300px; height: auto; display: block; margin: 0px auto; border-radius: 10px;">
+    </div>
+</body>
+
+</html>
